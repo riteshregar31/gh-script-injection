@@ -9,7 +9,7 @@ jobs:
   assign-label:
     runs-on: ubuntu-latest
     permissions:
-      issues: write   # Required for labeling
+      issues: write   # required for adding labels
 
     steps:
       - name: Assign label if title contains "bug"
